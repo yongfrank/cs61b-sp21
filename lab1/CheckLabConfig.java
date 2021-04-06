@@ -44,7 +44,7 @@ public class CheckLabConfig {
 
 		String pattern;
 		String expected;
-
+/*
 		if (!snapsCheck) {
 			pattern = "sp21-s[\\d]+";
 			expected = "sp21-s1234";
@@ -58,7 +58,7 @@ public class CheckLabConfig {
 			System.out.println("The folder name in the end should match this pattern: " + expected);
 			System.exit(1);
 		}
-
+*/
 		File file = new File(value);
 
 		boolean isDirectory = file.isDirectory(); 
